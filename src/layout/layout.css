@@ -1,0 +1,6 @@
+.header { background: #e74c3c; color: white; padding: 18px 0; }
+.header-interior { display: flex; justify-content: space-between; align-items: center; gap: 20px; }
+.header nav { display: flex; flex-wrap: wrap; gap: 18px; }
+.header a { color: white; text-decoration: none; }
+.footer { background: #ddd; text-align: center; padding: 22px 0; margin-top: 40px; }
+@media (max-width: 600px) { .header-interior { flex-direction: column; } }

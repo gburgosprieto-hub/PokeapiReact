@@ -1,0 +1,15 @@
+.intro { padding: 35px 0 15px; }
+.intro h1 { margin-bottom: 8px; }
+.seccion { padding-top: 35px; }
+.seccion-titulo { margin-bottom: 20px; }
+.seccion-titulo h2 { margin: 0 0 8px; }
+.seccion-titulo p { margin: 0; }
+.contador-listado, .chip { font-size: 13px; color: #555; }
+.pokemon-grid, .movimientos-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.paginacion { display: flex; justify-content: center; align-items: center; gap: 15px; margin: 24px 0; }
+.paginacion button, .enlaces-movimientos button { padding: 8px 12px; border: 1px solid #999; border-radius: 3px; background: #eee; }
+.paginacion button:disabled { opacity: .5; }
+.mensaje-error { color: #a22; }
+.movimiento-seleccionado { background: #eaeaea; padding: 12px; }
+@media (max-width: 700px) { .pokemon-grid, .movimientos-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 450px) { .pokemon-grid, .movimientos-grid { grid-template-columns: 1fr; } }

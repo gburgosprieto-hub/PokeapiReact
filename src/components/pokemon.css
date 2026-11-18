@@ -1,0 +1,12 @@
+.pokemon-card, .movimiento-card { text-align: left; background: white; border: 1px solid #ccc; border-radius: 4px; padding: 15px; width: 100%; color: #222; }
+.pokemon-card img { width: 100%; height: 150px; object-fit: contain; background: #eee; }
+.pokemon-card h3 { text-transform: capitalize; margin: 12px 0; }
+.pokemon-card p { margin: 8px 0; }
+.pokemon-card.seleccionado, .movimiento-card.seleccionado { border: 2px solid #e74c3c; }
+.detalle-panel { background: white; border: 1px solid #ccc; padding: 20px; display: flex; gap: 30px; }
+.detalle-imagen { width: 230px; height: 230px; object-fit: contain; }
+.detalle-panel h3 { text-transform: capitalize; }
+.enlaces-movimientos { display: flex; flex-wrap: wrap; gap: 8px; }
+.movimiento-card h3 { text-transform: capitalize; }
+.movimiento-card p { line-height: 1.4; }
+@media (max-width: 600px) { .detalle-panel { flex-direction: column; } .detalle-imagen { max-width: 100%; } }
